@@ -6,5 +6,5 @@ This has helped me a bit.
 
 If you have any tips *please help!*
 
-sincere,
+sincerely,
 @shakoer
