@@ -1,0 +1,45 @@
+body {
+  background-color: #111;
+  color: white;
+}
+
+.button {
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100px;
+  transition: all .2s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#red {
+  background-color: indianred;
+}
+
+#green {
+  background-color: seagreen;
+}
+
+#blue {
+  background-color: royalblue;
+}
+
+@media only screen and (max-width: 768px) {
+  .center {
+    flex-direction: column;
+  }
+}
